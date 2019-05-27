@@ -1,0 +1,279 @@
+/content/documents/comet/en:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 2dbf60d4-1133-4632-8579-69f510f69290
+  hippo:name: EN
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 996bcac5-86cf-49b5-a7a3-16a74863e814
+  hippotranslation:locale: en
+  /ax:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: cd069aa3-3f58-4b8b-9204-d77265da7a99
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: 437f81de-d687-41c7-a791-0f0dee7e4201
+    hippotranslation:locale: en
+    /b:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 6c780e17-aec5-409c-a587-6c167e67ef77
+      hippostd:foldertype: [new-translated-folder, new-document]
+      hippotranslation:id: 76734857-3358-43a5-98a3-49240de87055
+      hippotranslation:locale: en
+      /c:
+        jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+        jcr:uuid: 237c66d3-8201-4fa7-bbb0-8892b3ed3e65
+        hippostd:foldertype: [new-translated-folder, new-document]
+        hippotranslation:id: 490b4b85-7817-491f-9b53-880a89e8fd7f
+        hippotranslation:locale: en
+        /2019:
+          jcr:primaryType: hippostd:folder
+          jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+          jcr:uuid: d30e0ab7-f97e-4aec-a637-4b58ea5c4542
+          hippostd:foldertype: [new-translated-folder, new-document]
+          hippotranslation:id: 4f789194-823c-4a2a-b5f2-09698065e98a
+          hippotranslation:locale: en
+          /05:
+            jcr:primaryType: hippostd:folder
+            jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+            jcr:uuid: 5d66f3e2-5b5a-4c17-8897-789bfb70df36
+            hippostd:foldertype: [new-translated-folder, new-document]
+            hippotranslation:id: 35c45596-163b-4d15-a92c-3c147e753df9
+            hippotranslation:locale: en
+            /deeperarticle-2019-05:
+              jcr:primaryType: hippo:handle
+              jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+              jcr:uuid: 94ebefb6-df5e-47a6-80b5-ba5efcb1e1c7
+              hippo:versionHistory: e4ee952c-a9d3-4b3c-99af-1c39ba8fe7db
+              /deeperarticle-2019-05[1]:
+                jcr:primaryType: myproject:article
+                jcr:mixinTypes: ['mix:referenceable']
+                jcr:uuid: 46786d8e-0c15-425b-bedf-092d2d487995
+                hippo:availability: []
+                hippostd:state: draft
+                hippostdpubwf:createdBy: admin
+                hippostdpubwf:creationDate: 2019-05-22T17:59:45.593+01:00
+                hippostdpubwf:lastModificationDate: 2019-05-22T18:05:54.108+01:00
+                hippostdpubwf:lastModifiedBy: admin
+                hippotranslation:id: f3061c00-57f1-4ab2-9d36-f94446e4f657
+                hippotranslation:locale: en
+                myproject:title: Deeper Article
+              /deeperarticle-2019-05[2]:
+                jcr:primaryType: myproject:article
+                jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+                jcr:uuid: 3ae1d6c7-5348-4453-94a7-351f5c1df5ba
+                hippo:availability: [preview]
+                hippostd:state: unpublished
+                hippostdpubwf:createdBy: admin
+                hippostdpubwf:creationDate: 2019-05-22T17:59:45.593+01:00
+                hippostdpubwf:lastModificationDate: 2019-05-22T18:05:57.358+01:00
+                hippostdpubwf:lastModifiedBy: admin
+                hippotranslation:id: f3061c00-57f1-4ab2-9d36-f94446e4f657
+                hippotranslation:locale: en
+                myproject:title: Deeper Article
+              /deeperarticle-2019-05[3]:
+                jcr:primaryType: myproject:article
+                jcr:mixinTypes: ['mix:referenceable']
+                jcr:uuid: c2ab1b9a-09c9-49ad-bd29-134cdd49fcdc
+                hippo:availability: [live]
+                hippostd:state: published
+                hippostdpubwf:createdBy: admin
+                hippostdpubwf:creationDate: 2019-05-22T17:59:45.593+01:00
+                hippostdpubwf:lastModificationDate: 2019-05-22T18:05:57.358+01:00
+                hippostdpubwf:lastModifiedBy: admin
+                hippostdpubwf:publicationDate: 2019-05-23T16:23:52.900+01:00
+                hippotranslation:id: f3061c00-57f1-4ab2-9d36-f94446e4f657
+                hippotranslation:locale: en
+                myproject:title: Deeper Article
+        /index:
+          jcr:primaryType: hippo:handle
+          jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+          jcr:uuid: cf937db5-ce1f-4672-b6b1-7ce288ba860a
+          hippo:name: index
+          hippo:versionHistory: df8616d0-15f7-4414-bce4-5129d7b2fa15
+          /index[1]:
+            jcr:primaryType: myproject:index
+            jcr:mixinTypes: ['mix:versionable']
+            jcr:uuid: 822a002a-5282-4a80-983b-91cb8772b494
+            hippo:availability: [preview]
+            hippostd:state: unpublished
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2019-05-22T17:20:40.700+01:00
+            hippostdpubwf:lastModificationDate: 2019-05-22T17:59:31.434+01:00
+            hippostdpubwf:lastModifiedBy: admin
+            hippotranslation:id: 1c277e2e-f074-4537-85a0-23936c9518df
+            hippotranslation:locale: en
+            myproject:overview: <p>c</p>
+            myproject:title: c
+          /index[2]:
+            jcr:primaryType: myproject:index
+            jcr:mixinTypes: ['mix:referenceable']
+            jcr:uuid: d87f6abe-a170-4563-bed2-513d5149db5f
+            hippo:availability: []
+            hippostd:state: draft
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2019-05-22T17:20:40.700+01:00
+            hippostdpubwf:lastModificationDate: 2019-05-22T17:59:25.382+01:00
+            hippostdpubwf:lastModifiedBy: admin
+            hippotranslation:id: 1c277e2e-f074-4537-85a0-23936c9518df
+            hippotranslation:locale: en
+            myproject:overview: <p>c</p>
+            myproject:title: c
+          /index[3]:
+            jcr:primaryType: myproject:index
+            jcr:mixinTypes: ['mix:referenceable']
+            jcr:uuid: 937e37e4-fa31-4d22-89ca-3f9bfc94f918
+            hippo:availability: [live]
+            hippostd:state: published
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2019-05-22T17:20:40.700+01:00
+            hippostdpubwf:lastModificationDate: 2019-05-22T17:59:31.434+01:00
+            hippostdpubwf:lastModifiedBy: admin
+            hippostdpubwf:publicationDate: 2019-05-23T14:44:15.496+01:00
+            hippotranslation:id: 1c277e2e-f074-4537-85a0-23936c9518df
+            hippotranslation:locale: en
+            myproject:overview: <p>c</p>
+            myproject:title: c
+        /article:
+          jcr:primaryType: hippo:handle
+          jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+          jcr:uuid: 300a3150-f060-4e3e-a439-c51b7f056764
+          hippo:versionHistory: 6943374a-1e70-49eb-8298-a68d99d4f2f3
+          /article[1]:
+            jcr:primaryType: myproject:article
+            jcr:mixinTypes: ['mix:referenceable']
+            jcr:uuid: fc080807-7655-4179-bd0f-70995eb2c153
+            hippo:availability: []
+            hippostd:state: draft
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2019-05-22T18:05:24.091+01:00
+            hippostdpubwf:lastModificationDate: 2019-05-22T18:05:24.092+01:00
+            hippostdpubwf:lastModifiedBy: admin
+            hippotranslation:id: 03f11187-4647-4c8a-8579-cc26b7ec9e65
+            hippotranslation:locale: en
+            myproject:title: Article
+          /article[2]:
+            jcr:primaryType: myproject:article
+            jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+            jcr:uuid: 5cbf1b37-274d-4872-9bbc-e9ef9dbc2ee1
+            hippo:availability: [preview]
+            hippostd:state: unpublished
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2019-05-22T18:05:24.091+01:00
+            hippostdpubwf:lastModificationDate: 2019-05-22T18:05:29.689+01:00
+            hippostdpubwf:lastModifiedBy: admin
+            hippotranslation:id: 03f11187-4647-4c8a-8579-cc26b7ec9e65
+            hippotranslation:locale: en
+            myproject:title: Article
+          /article[3]:
+            jcr:primaryType: myproject:article
+            jcr:mixinTypes: ['mix:referenceable']
+            jcr:uuid: 8b773f34-07c7-4d5d-af29-3c9cf1ffd3ac
+            hippo:availability: [live]
+            hippostd:state: published
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2019-05-22T18:05:24.091+01:00
+            hippostdpubwf:lastModificationDate: 2019-05-22T18:05:29.689+01:00
+            hippostdpubwf:lastModifiedBy: admin
+            hippostdpubwf:publicationDate: 2019-05-23T14:44:15.394+01:00
+            hippotranslation:id: 03f11187-4647-4c8a-8579-cc26b7ec9e65
+            hippotranslation:locale: en
+            myproject:title: Article
+      /index:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+        jcr:uuid: 05c7eab3-23c1-485e-bd5a-1dfb676d6346
+        hippo:name: index
+        hippo:versionHistory: 118f5563-88bf-4c0b-abff-7a360ca84700
+        /index[1]:
+          jcr:primaryType: myproject:index
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: b79f3e7c-ae2b-4c6b-bd48-03b88f21e67a
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-05-22T17:20:40.700+01:00
+          hippostdpubwf:lastModificationDate: 2019-05-22T17:59:15.627+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 864047d4-ca7e-4362-a962-4757f371dc42
+          hippotranslation:locale: en
+          myproject:overview: <p>b</p>
+          myproject:title: b
+        /index[2]:
+          jcr:primaryType: myproject:index
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 6bafabe3-5e0b-4dc0-8af7-3fff18466a65
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-05-22T17:20:40.700+01:00
+          hippostdpubwf:lastModificationDate: 2019-05-22T17:59:12.142+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 864047d4-ca7e-4362-a962-4757f371dc42
+          hippotranslation:locale: en
+          myproject:overview: <p>b</p>
+          myproject:title: b
+        /index[3]:
+          jcr:primaryType: myproject:index
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: bf733ebd-8b37-4101-b2c3-0417b080b3d2
+          hippo:availability: [live]
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-05-22T17:20:40.700+01:00
+          hippostdpubwf:lastModificationDate: 2019-05-22T17:59:15.627+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2019-05-23T14:44:15.338+01:00
+          hippotranslation:id: 864047d4-ca7e-4362-a962-4757f371dc42
+          hippotranslation:locale: en
+          myproject:overview: <p>b</p>
+          myproject:title: b
+    /index:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 7205704a-d737-40c8-a7fa-8f3ea60b45e2
+      hippo:versionHistory: b4036ce6-8a86-4968-b969-ed34e7218ce8
+      /index[1]:
+        jcr:primaryType: myproject:index
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: b8eef564-13ba-438f-96c6-be060eb3f2ce
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-05-22T17:20:40.700+01:00
+        hippostdpubwf:lastModificationDate: 2019-05-22T17:20:40.700+01:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: f9c9959d-6001-4438-ac42-9fbbe2cde473
+        hippotranslation:locale: en
+        myproject:overview: <p>a</p>
+        myproject:title: a
+      /index[2]:
+        jcr:primaryType: myproject:index
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: f45e209f-712b-4a2a-82d3-8b9a56cc0fd1
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-05-22T17:20:40.700+01:00
+        hippostdpubwf:lastModificationDate: 2019-05-22T17:20:45.843+01:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: f9c9959d-6001-4438-ac42-9fbbe2cde473
+        hippotranslation:locale: en
+        myproject:overview: <p>a</p>
+        myproject:title: a
+      /index[3]:
+        jcr:primaryType: myproject:index
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: d332decf-6329-4ed5-905e-4c44733a65f5
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-05-22T17:20:40.700+01:00
+        hippostdpubwf:lastModificationDate: 2019-05-22T17:20:45.843+01:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2019-05-23T14:44:15.548+01:00
+        hippotranslation:id: f9c9959d-6001-4438-ac42-9fbbe2cde473
+        hippotranslation:locale: en
+        myproject:overview: <p>a</p>
+        myproject:title: a

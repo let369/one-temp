@@ -2,4 +2,4 @@ definitions:
   config:
     /hst:hst/hst:sites/myproject:
       jcr:primaryType: hst:site
-      hst:content: /content/documents/myproject
+      hst:content: /content/documents/comet

@@ -1,0 +1,140 @@
+/content/taxonomies:
+  jcr:primaryType: hippotaxonomy:container
+  /topics:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo']
+    hippo:versionHistory: 87909db6-9e59-4d33-8069-b292c3e46c28
+    /topics[1]:
+      jcr:primaryType: hippotaxonomy:taxonomy
+      jcr:mixinTypes: ['hippostd:publishableSummary', 'mix:versionable']
+      jcr:uuid: 5d3110f7-2ff7-4ba6-bcac-fb2311861887
+      hippo:availability: [live]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-05-23T09:48:24.101+01:00
+      hippostdpubwf:lastModificationDate: 2019-05-23T22:46:33.624+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-05-24T12:47:27.560+01:00
+      hippotaxonomy:locales: [en, fr]
+      /a-fr:
+        jcr:primaryType: hippotaxonomy:category
+        hippotaxonomy:key: a
+        /hippotaxonomy:categoryinfos:
+          jcr:primaryType: hippotaxonomy:categoryinfos
+          /en:
+            jcr:primaryType: hippotaxonomy:categoryinfo
+            hippotaxonomy:name: a
+          /fr:
+            jcr:primaryType: hippotaxonomy:categoryinfo
+            hippotaxonomy:name: a-fr
+        /b-fr:
+          jcr:primaryType: hippotaxonomy:category
+          hippotaxonomy:key: b
+          /hippotaxonomy:categoryinfos:
+            jcr:primaryType: hippotaxonomy:categoryinfos
+            /fr:
+              jcr:primaryType: hippotaxonomy:categoryinfo
+              hippotaxonomy:name: b-fr
+            /en:
+              jcr:primaryType: hippotaxonomy:categoryinfo
+              hippotaxonomy:name: b
+          /c-fr:
+            jcr:primaryType: hippotaxonomy:category
+            hippotaxonomy:key: c
+            /hippotaxonomy:categoryinfos:
+              jcr:primaryType: hippotaxonomy:categoryinfos
+              /en:
+                jcr:primaryType: hippotaxonomy:categoryinfo
+                hippotaxonomy:name: c
+              /fr:
+                jcr:primaryType: hippotaxonomy:categoryinfo
+                hippotaxonomy:name: c-fr
+    /topics[2]:
+      jcr:primaryType: hippotaxonomy:taxonomy
+      jcr:mixinTypes: ['hippostd:publishableSummary', 'mix:referenceable', 'mix:versionable']
+      jcr:uuid: 0e757d59-8a76-496e-904c-0afd44409e4e
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-05-23T09:48:24.101+01:00
+      hippostdpubwf:lastModificationDate: 2019-05-23T22:46:33.624+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:locales: [en, fr]
+      /a-fr:
+        jcr:primaryType: hippotaxonomy:category
+        hippotaxonomy:key: a
+        /hippotaxonomy:categoryinfos:
+          jcr:primaryType: hippotaxonomy:categoryinfos
+          /en:
+            jcr:primaryType: hippotaxonomy:categoryinfo
+            hippotaxonomy:name: a
+          /fr:
+            jcr:primaryType: hippotaxonomy:categoryinfo
+            hippotaxonomy:name: a-fr
+        /b-fr:
+          jcr:primaryType: hippotaxonomy:category
+          hippotaxonomy:key: b
+          /hippotaxonomy:categoryinfos:
+            jcr:primaryType: hippotaxonomy:categoryinfos
+            /fr:
+              jcr:primaryType: hippotaxonomy:categoryinfo
+              hippotaxonomy:name: b-fr
+            /en:
+              jcr:primaryType: hippotaxonomy:categoryinfo
+              hippotaxonomy:name: b
+          /c-fr:
+            jcr:primaryType: hippotaxonomy:category
+            hippotaxonomy:key: c
+            /hippotaxonomy:categoryinfos:
+              jcr:primaryType: hippotaxonomy:categoryinfos
+              /en:
+                jcr:primaryType: hippotaxonomy:categoryinfo
+                hippotaxonomy:name: c
+              /fr:
+                jcr:primaryType: hippotaxonomy:categoryinfo
+                hippotaxonomy:name: c-fr
+    /topics[3]:
+      jcr:primaryType: hippotaxonomy:taxonomy
+      jcr:mixinTypes: ['hippostd:publishableSummary', 'mix:referenceable']
+      jcr:uuid: bd8de8af-14cc-4ebf-b6db-3abede90cd8f
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-05-23T09:48:24.101+01:00
+      hippostdpubwf:lastModificationDate: 2019-05-23T22:46:29.678+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotaxonomy:locales: [en, fr]
+      /a-fr:
+        jcr:primaryType: hippotaxonomy:category
+        hippotaxonomy:key: a
+        /hippotaxonomy:categoryinfos:
+          jcr:primaryType: hippotaxonomy:categoryinfos
+          /en:
+            jcr:primaryType: hippotaxonomy:categoryinfo
+            hippotaxonomy:name: a
+          /fr:
+            jcr:primaryType: hippotaxonomy:categoryinfo
+            hippotaxonomy:name: a-fr
+        /b-fr:
+          jcr:primaryType: hippotaxonomy:category
+          hippotaxonomy:key: b
+          /hippotaxonomy:categoryinfos:
+            jcr:primaryType: hippotaxonomy:categoryinfos
+            /fr:
+              jcr:primaryType: hippotaxonomy:categoryinfo
+              hippotaxonomy:name: b-fr
+            /en:
+              jcr:primaryType: hippotaxonomy:categoryinfo
+              hippotaxonomy:name: b
+          /c-fr:
+            jcr:primaryType: hippotaxonomy:category
+            hippotaxonomy:key: c
+            /hippotaxonomy:categoryinfos:
+              jcr:primaryType: hippotaxonomy:categoryinfos
+              /en:
+                jcr:primaryType: hippotaxonomy:categoryinfo
+                hippotaxonomy:name: c
+              /fr:
+                jcr:primaryType: hippotaxonomy:categoryinfo
+                hippotaxonomy:name: c-fr
