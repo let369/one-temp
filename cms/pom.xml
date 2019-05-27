@@ -18,6 +18,10 @@
       <version>${project.version}</version>
       <type>pom</type>
     </dependency>
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-plugin-taxonomy-hstclient</artifactId>
+    </dependency>
   </dependencies>
   <build>
     <finalName>cms</finalName>
