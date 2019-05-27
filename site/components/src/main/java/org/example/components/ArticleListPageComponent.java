@@ -6,13 +6,17 @@ import javax.jcr.Node;
 import javax.jcr.NodeIterator;
 import javax.jcr.RepositoryException;
 
-import org.hippoecm.hst.container.RequestContextProvider;
 import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
 import org.hippoecm.hst.core.linking.HstLink;
 import org.onehippo.cms7.essentials.components.EssentialsContentComponent;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class ArticleListPageComponent extends EssentialsContentComponent {
+
+    private static Logger log = LoggerFactory.getLogger(ArticleListPageComponent.class);
+
     @Override
     public void doBeforeRender(final HstRequest request, final HstResponse response) {
         super.doBeforeRender(request, response);
@@ -33,11 +37,12 @@ public class ArticleListPageComponent extends EssentialsContentComponent {
             getAllArticleLinks(request, nextFoldersIter, articleLinks);
 
         } catch (RepositoryException e) {
-            e.printStackTrace();
+            log.error("{} was thrown while trying to retrieve list of article links for Article List Page. ",e.getClass().getCanonicalName(),e);
         }
 
         if(!articleLinks.isEmpty()){
             request.setAttribute("articleLinks",articleLinks);
+            request.setModel("articleLinks",articleLinks);
         }
     }
 

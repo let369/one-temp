@@ -10,8 +10,13 @@ import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
 import org.hippoecm.hst.core.linking.HstLink;
 import org.onehippo.cms7.essentials.components.EssentialsContentComponent;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class CategoryPageComponent extends EssentialsContentComponent {
+
+    private static Logger log = LoggerFactory.getLogger(CategoryPageComponent.class);
+
     @Override
     public void doBeforeRender(final HstRequest request, final HstResponse response) {
         super.doBeforeRender(request, response);
@@ -38,10 +43,11 @@ public class CategoryPageComponent extends EssentialsContentComponent {
             }
 
         } catch (RepositoryException e) {
-            e.printStackTrace();
+            log.error("{} was thrown while trying to retrieve links to folders for Category Page. ",e.getClass().getCanonicalName(),e);
         }
         if(!folderLinks.isEmpty()){
             request.setAttribute("folderLinks",folderLinks);
+            request.setModel("folderLinks",folderLinks);
         }
     }
 }
